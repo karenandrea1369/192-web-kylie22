@@ -23,7 +23,7 @@ body{
     flex-wrap: wrap;
 }
 
-.colum2__col{
+.colum2__col{ /* ++++++++++++++++++++++++++++++++++++++++++++++preguntar */
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -32,6 +32,12 @@ body{
 
 .colum2__col > p{
     width: 90%;
+}
+
+.tx15{
+    font-family:  'Roboto', sans-serif;
+    font-size: 15px;
+    color: #461B37;
 }
 
 .tx20{
@@ -46,6 +52,13 @@ body{
     color: #461B37;
 }
 
+.tx24--important{
+    font-family:  'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #CF0A6F;
+}
+
 .tx30--important{
     font-family:  'Roboto', sans-serif;
     font-size: 30px;
@@ -53,11 +66,20 @@ body{
     color: #CF0A6F;
 }
 
-.tx24--important{
-    font-family:  'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    color: #CF0A6F;
+.btn{
+    background: #CF0A6F;
+    width: 180px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.button--cta{
+    background: #6FC834;
 }
 
 /* ---------------HEADER---------------*/
@@ -121,21 +143,6 @@ header{
     width: 35%;
 }
 
-.btn{
-    background: #CF0A6F;
-    width: 180px;
-    height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 900px;
-    color: white;
-    border-radius: 2px;
-    border: none;
-}
-
-.button--cta{
-    background: #6FC834;
-}
 
 /*---------------AD---------------*/
 .ad{
@@ -223,4 +230,15 @@ header{
 
 .suscribe{
     background-color: #FDE9E9;
+}
+
+.inp{
+    border: 0px;
+    width: 400px;
+    height: 40px;
+    margin: 5px 0px;
+}
+
+.suscribe__title{
+    text-align: center;
 }
