@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
-    <title>Kylie22</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">    <title>Kylie22</title>
 </head>
 <body>
     
-    <!-- Encabezado -->
+    <!-- Header -->
     <header>
         <nav class="navigation">
-            <a href="#" class="navigation__logo"><img src="./data/logo.png" alt="Logo"></a>
+            <a href="#" class="navigation__logo"><img class="navigation__img" src="./data/logo.png" alt="Logo"></a>
             <a href="#" class="navigation__item navigation__item--active">INICIO</a>
             <a href="#" class="navigation__item">NOSOTROS</a>
             <a href="#" class="navigation__item">CONTACTO</a>
@@ -23,39 +22,42 @@
     <!-- Banner -->
     <div class="banner">
         <h1 class="banner__title">LUCE UN ESTILO KYLIE</h1>
-        <p class="banner__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odio, aperiam nam qui, ipsa est ab ut cum harum sequi similique iure? Rerum ullam quidem voluptatum excepturi soluta tenetur cum!</p>
+        <p class="banner__text tx20">Esta paleta es tu arma secreta para crear el look perfecto de Kylie</p>
         <button class="btn button--cta">¡La quiero!</button>
     </div>
 
-    <!-- Publicidad -->
+    <!-- Advertisement -->
 
-    <div class="colum2">
-        <div class="colum2__col ">
-            <p >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, illo consequuntur iusto similique reiciendis dolores ipsa vel alias iste hic exercitationem debitis in fugiat sunt a laborum, dolor provident officia!
+    <div class="colum2 ad">
+        <div class="colum2__col ad__col1">
+            <p class="tx30 ">
+               <strong>Completa tu look Kylie con nuestro</strong> 
             </p>
-            <button class="btn">
+            <p class="tx30--important">
+                ONE IN A BILLION GLOSS
+            </p>
+            <button class="btn ">
                 ¡Lo quiero!
             </button>
         </div>
-        <div class="colum2__col">
+        <div class="colum2__col ad__col2">
             <img src="./data/gloss.png" alt="">
         </div>
     </div>
 
-    <!-- Caracteristicas -->
+    <!-- Caracteristcs -->
 
     <div class="colum2">
         <div class="colum2__col">
             <img src="./data/paleta.png" alt="">
         </div>
         <div class="colum2__col">
-            <p>
+            <p class="tx20">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eligendi tempore magnam consectetur ullam ipsam, minus totam corporis sint, ratione pariatur odio saepe iste iure nulla nesciunt asperiores esse architecto.
             </p>
         </div>        
         <div class="colum2__col">
-            <p>
+            <p class="tx20">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eligendi tempore magnam consectetur ullam ipsam, minus totam corporis sint, ratione pariatur odio saepe iste iure nulla nesciunt asperiores esse architecto.
             </p>
         </div>
@@ -66,61 +68,94 @@
             <img src="./data/cajacerrada.png" alt="">
         </div>
         <div class="colum2__col">
-            <p>
+            <p class="tx20">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit eligendi tempore magnam consectetur ullam ipsam, minus totam corporis sint, ratione pariatur odio saepe iste iure nulla nesciunt asperiores esse architecto.
             </p>
         </div>
-
     </div>
 
 
     <!-- Interaction -->
 
-    <div class="colum2">
-        <h2 class="manybtn__h2">¡Pruébalo!</h2>
-        <div class="colum2__col">
-            <img class="int__img" src="./data/maquillada.png" alt="">
+    <div class="inter">
+        <!-- <div>
+            <h2 class="manybtn__h2 inter__title1">¡Pruébalo!</h2>
+        </div> -->
+
+        <div class="inter__col1">
+            <img class="inter__img" src="./data/maquillada.jpg" alt="">
         </div>
-        <div class="colum2__col manybtn">
-            <img class="manybtn__img" src="./data/1.jpg" alt="">
-            <img class="manybtn__img" src="./data/2.jpg" alt="">
-            <img class="manybtn__img" src="./data/3.jpg" alt="">
-            <img class="manybtn__img" src="./data/4.jpg" alt="">
-            <img class="manybtn__img" src="./data/5.jpg" alt="">
-            <img class="manybtn__img" src="./data/6.jpg" alt="">
-            <img class="manybtn__img" src="./data/7.jpg" alt="">
-            <img class="manybtn__img" src="./data/8.jpg" alt="">
-            <img class="manybtn__img" src="./data/9.jpg" alt="">
-            <img class="manybtn__img" src="./data/10.jpg" alt="">
-            <img class="manybtn__img" src="./data/11.jpg" alt="">
-            <img class="manybtn__img" src="./data/12.jpg" alt="">
-            <img class="manybtn__img" src="./data/13.jpg" alt="">
-            <img class="manybtn__img" src="./data/14.jpg" alt="">
-            <img class="manybtn__img" src="./data/15.jpg" alt="">
-            <img class="manybtn__img" src="./data/16.jpg" alt=""> 
+        
+        <div class="inter__col2">
+            <div>
+                <h2 class="tx30--important inter__title2">¡Pruébalo!</h2>
+            </div>
+            <div class="manybtn inter__buttons">
+                <img class="manybtn__img" src="./data/1.jpg" alt="">
+                <img class="manybtn__img" src="./data/2.jpg" alt="">
+                <img class="manybtn__img" src="./data/3.jpg" alt="">
+                <img class="manybtn__img" src="./data/4.jpg" alt="">
+                <img class="manybtn__img" src="./data/5.jpg" alt="">
+                <img class="manybtn__img" src="./data/6.jpg" alt="">
+                <img class="manybtn__img" src="./data/7.jpg" alt="">
+                <img class="manybtn__img" src="./data/8.jpg" alt="">
+                <img class="manybtn__img" src="./data/9.jpg" alt="">
+                <img class="manybtn__img" src="./data/10.jpg" alt="">
+                <img class="manybtn__img" src="./data/11.jpg" alt="">
+                <img class="manybtn__img" src="./data/12.jpg" alt="">
+                <img class="manybtn__img" src="./data/13.jpg" alt="">
+                <img class="manybtn__img" src="./data/14.jpg" alt="">
+                <img class="manybtn__img" src="./data/15.jpg" alt="">
+                <img class="manybtn__img" src="./data/16.jpg" alt=""> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Detail -->
+    <div class="detail">
+        <h2 class="tx30--important">Descripción</h2>
+        <p class="tx20">La paleta de la colección de cumpleaños You're So Money de la edición limitada de Kylie Cosmetics es tu arma secreta para crear el look perfecto de Kylie. Cada paleta viene con 9 metálicos y 7 pigmentos en polvo mate prensado que se pueden usar juntos para recrear los looks de cumpleaños favoritos de Kylie o personalizar los tuyos.</p>
+        <h3 class="tx24--important detail__more">Mostrar más +</h3>
+
+        <div class="colum2 detail__descrip">
+            <div class="colum2__col">
+                <img src="./data/c1.jpg" alt=""> <p>Time is money (metallic icy pink with a green flip)</p>
+                <img src="./data/c2.jpg" alt=""> <p>Birthday Queen (metallic copper with amber and silver glitter)</p>
+                <img src="./data/c3.jpg" alt=""> <p>Stacks (matte army green)</p>
+                <img src="./data/c4.jpg" alt=""> <p>One Hunnit (metallic golden green)</p>
+                <img src="./data/c5.jpg" alt=""> <p>On a Budget (matte warm rosie pink)</p>
+                <img src="./data/c6.jpg" alt=""> <p>Bands (matte chocolate brown)</p>
+                <img src="./data/c7.jpg" alt=""> <p>Twenty-Two (metallic pink with purple/green glitter)</p>
+                <img src="./data/c8.jpg" alt=""> <p>Goal Setter (metallic electric pink)</p>
+            </div>
+
+            <div class="colum2__col">
+                <img src="./data/c9.jpg" alt=""> <p>Long Money (matte magenta pink)</p>
+                <img src="./data/c10.jpg" alt=""> <p>Work For It (matte Ballet Pink)</p>
+                <img src="./data/c11.jpg" alt=""> <p>Blue Faces (matte soft cork brown)</p>
+                <img src="./data/c12.jpg" alt=""> <p>Ballin Bae (metallic true gold with silver pearl)</p>
+                <img src="./data/c13.jpg" alt=""> <p>22 Candles (metallic warm mauve with pink and silver glitter)</p>
+                <img src="./data/c14.jpg" alt=""> <p>Build Your Empire (metallic pink punch with yellow flip)</p>
+                <img src="./data/c15.jpg" alt=""> <p>Time For Cake (metallic chartreuse green with green glitter)</p>
+                <img src="./data/c16.jpg" alt=""> <p>Breaking Records (matte rich maroon)</p>            
+            </div>
         </div>
 
     </div>
 
-    <!-- Detail -->
-
-    <h2>Detalle</h2>
-    <p>La paleta de la colección de cumpleaños You're So Money de la edición limitada de Kylie Cosmetics es tu arma secreta para crear el look perfecto de Kylie. Cada paleta viene con 9 metálicos y 7 pigmentos en polvo mate prensado que se pueden usar juntos para recrear los looks de cumpleaños favoritos de Kylie o personalizar los suyos.</p>
-    <h3>+ Mostrar más</h3>
-
     <!-- Gallery -->
 
-    <h2>Otras combinaciones</h2>
+    <h2 class="tx30--important">Otras combinaciones</h2>
 
     <!-- Suscribe -->
 
-    <div class="colum2">
+    <div class="colum2 suscribe">
         <div class="colum2__col">
             <img src="./data/suscribe.png" alt="">
         </div>
 
         <div class="colum2__col">
-            <h3>Quiero saber más</h3>
+            <h3 class="tx24--important">Quiero saber más</h3>
             <p>Se el primero en recibir información sobre nuestros nuevos productos</p>
             <input type="Nombre">
             <input type="Correo">
@@ -129,11 +164,27 @@
             <button>Suscribirme</button>
 
         </div>
+    </div>
+
+    <div class="net">
+        <div>
+            <p>Encuéntranos en redes sociales</p>
+        </div>
+        <div>
+            <img src="./data/face.png" alt="">
+            <img src="./data/insta.png" alt="">
+            <img src="./data/youtube.png" alt="">
+        </div>
+        <div>
+            <img src="./data/copy.png" alt="">
+            <p>Copyright 2019 | Política de privacidad</p>
+        </div>
 
 
     </div>
 
+
     <!-- Java -->
-    <script src="./main.js"></script>
+    <script src="./java/main.js"></script>
 </body>
 </html>
