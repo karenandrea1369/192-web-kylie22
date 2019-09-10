@@ -21,7 +21,7 @@ var detail = document.querySelector('.detail__descrip');
 
 function handleClick(){
     detail.classList.toggle('detail__descrip--active');
-    // more.setAttribute('name', 'Mostrar menos -')
+    // more.setAttribute('name', 'Mostrar menos -') ++++++++++++++++++++++++++++++++++++preguntar
 }
 
 more.addEventListener('click', handleClick);
