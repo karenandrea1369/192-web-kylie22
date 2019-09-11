@@ -32,6 +32,8 @@ body{
     text-align: center;
 }
 
+
+
 .colum2__col--left{ 
     display: flex;
     justify-content: flex-end;
@@ -169,6 +171,11 @@ body{
 }
 .carac__item:nth-child(6){
     order: 6;
+}
+
+.carac__item--centered{
+    text-align: center;
+    padding: 100px 60px;
 }
 
 
