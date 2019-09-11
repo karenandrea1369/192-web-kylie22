@@ -100,7 +100,7 @@ body{
     transition: all .4s ease;
 }
 
-.mainheader__logo{ /*preguntar???????????????????*/
+.mainheader__logo{
     margin-left: 90px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -333,28 +333,6 @@ body{
         padding: 20px 80px;
     }
 
-    .carac__item{
-        justify-content: center;
-    }
-    .carac__item:nth-child(1){
-        order: 1;
-    }
-    .carac__item:nth-child(2){
-        order: 2;
-    }
-    .carac__item:nth-child(3){
-        order: 4;
-    }
-    .carac__item:nth-child(4){
-        order: 3;
-    }
-    .carac__item:nth-child(5){
-        order: 5;
-    }
-    .carac__item:nth-child(6){
-        order: 6;
-    }
-
     /*---------------HEADER---------------*/
 
     .mainheader__nav{
@@ -391,6 +369,93 @@ body{
         margin: 20px 30px;
     }
 
+
+    /*---------------BANNER---------------*/
+
+    .banner{
+        background-image: url("../data/banner.jpg");
+        background-color: gray;
+        background-size: cover;
+        width: 100%;
+        height: 30%;
+        padding: 100px 0px 40px 40px;
+    }
+    
+    .banner__title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 45px;
+        width: 60%;
+        color: #CF0A6F;
+        line-height: 98.2%;
+        margin: 0px;
+    }
+    
+    .banner__text{
+        width: 49%;
+    }
+
+    /*---------------AD---------------*/
+
+    .ad{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .ad__col1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 65%;
+        padding: 20px;
+    }
+    
+    .ad__col1  p{
+        text-align: right;
+        font-size: 20px;
+        margin: 0px;
+        height: 30px;
+    }
+    
+    .ad__col1 > button{
+        margin: 20px 0px;
+    }
+    
+    .ad__col2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 35%;
+        padding: 20px 20px;
+    }
+
+    /*---------------CARACTERISTICS---------------*/
+    .carac__item{
+        justify-content: center;
+    }
+    
+    .carac__item img{
+        width: 60%;;
+    }
+    
+    .carac__item:nth-child(1){
+        order: 1;
+    }
+    .carac__item:nth-child(2){
+        order: 2;
+    }
+    .carac__item:nth-child(3){
+        order: 4;
+    }
+    .carac__item:nth-child(4){
+        order: 3;
+    }
+    .carac__item:nth-child(5){
+        order: 5;
+    }
+    .carac__item:nth-child(6){
+        order: 6;
+    }
 
     /*---------------INTERACTION---------------*/
 
