@@ -1,7 +1,7 @@
 var buttons = document.querySelectorAll('.manybtn__img');
-var imgButton = document.querySelector('img');
+//var imgButton = document.querySelector('img');
 
-function handleClick (event){
+function handleClick1(event){
     var name = event.target.getAttribute('src')
     var parts = name.split('/');
     var newName = './data/img' + parts[2];
@@ -12,16 +12,23 @@ function handleClick (event){
 
 for (var i = 0; i < buttons.length; i++) {
     var button = buttons[i];
-    button.addEventListener('click', handleClick );   
+    button.addEventListener('click', handleClick1 );   
 }
 
 
 var more = document.querySelector('.detail__more');
 var detail = document.querySelector('.detail__descrip');
 
-function handleClick(){
+
+function handleClick2(){
     detail.classList.toggle('detail__descrip--active');
+
+    if(more.innerHTML== '+ Mostrar más'){
+        more.innerHTML = '- Mostrar menos';
+    } else {
+        more.innerHTML = '+ Mostrar más';
+    }
     // more.setAttribute('name', 'Mostrar menos -') ++++++++++++++++++++++++++++++++++++preguntar
 }
 
-more.addEventListener('click', handleClick);
+more.addEventListener('click', handleClick2);
