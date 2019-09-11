@@ -25,7 +25,7 @@ body{
 
 .colum2__col{ 
     width: 50%;
-    padding: 20px 80px;
+    padding: 20px 70px;
 }
 
 .colum2__col--center{ 
@@ -33,7 +33,8 @@ body{
 }
 
 .colum2__col--left{ 
-    text-align: left;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .tx15{
@@ -85,33 +86,28 @@ body{
 }
 
 /* ---------------HEADER---------------*/
-header{
+.mainheader{
     width: 100%;
     background-color: #FDE9E9;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
-.navigation{
-    width: 100%;
+.mainheader__nav{
     height: 80px;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    transition: all .4s ease;
 }
 
-.navigation__logo{ /*preguntar???????????????????*/
-    margin-right: auto;
+.mainheader__logo{ /*preguntar???????????????????*/
     margin-left: 90px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.navigation__img{
     height: 40px;
 }
 
-.navigation__item{
+.mainheader__item{
     text-decoration: none;
     margin: 40px 90px 40px 0px;
     color: #CF0A6F;
@@ -120,6 +116,12 @@ header{
 
 .navigation__item--active{
     font-weight: bold;
+}
+
+.mainheader__btn{
+    background: none;
+    border: none;
+    display: none;
 }
 
 /*---------------BANNER---------------*/
@@ -143,6 +145,30 @@ header{
 
 .banner__text{
     width: 35%;
+}
+
+/*---------------CARACTERISTICS---------------*/
+
+.carac__item{
+    display: flex;
+}
+.carac__item:nth-child(1){
+    order: 1;
+}
+.carac__item:nth-child(2){
+    order: 2;
+}
+.carac__item:nth-child(3){
+    order: 3;
+}
+.carac__item:nth-child(4){
+    order: 4;
+}
+.carac__item:nth-child(5){
+    order: 5;
+}
+.carac__item:nth-child(6){
+    order: 6;
 }
 
 
@@ -301,40 +327,99 @@ header{
 
 @media (max-width: 600px){
 
-/*---------------COMMON---------------*/
+    /*---------------COMMON---------------*/
     .colum2__col{ 
         width: 100%;
         padding: 20px 80px;
     }
 
-/*---------------INTERACTION---------------*/
+    .carac__item{
+        justify-content: center;
+    }
+    .carac__item:nth-child(1){
+        order: 1;
+    }
+    .carac__item:nth-child(2){
+        order: 2;
+    }
+    .carac__item:nth-child(3){
+        order: 4;
+    }
+    .carac__item:nth-child(4){
+        order: 3;
+    }
+    .carac__item:nth-child(5){
+        order: 5;
+    }
+    .carac__item:nth-child(6){
+        order: 6;
+    }
 
-.inter{
-    flex-wrap: wrap;
-}
+    /*---------------HEADER---------------*/
 
-.inter__col1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    .mainheader__nav{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        top: 84px;
+        padding: 20px;
+        background-color: #ffffff;
+        /*right: 0px;*/
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        pointer-events: none;
+        transform: translate(100%, 0%);
+    }
 
-.inter__col2{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .mainheader__nav--active{
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(75%, 0%);
+    }
 
-.inter__title1{
-    display: block;
-}
-.inter__title2{
-    display: none;
-}
+    .mainheader__item{
+        margin: 10px;
+    }
+
+    .mainheader__btn{
+        display: block;
+        margin: 20px;
+    }
+
+    .mainheader__logo{
+        margin: 20px 30px;
+    }
 
 
-/*---------------DESCRIPTION---------------*/
+    /*---------------INTERACTION---------------*/
+
+    .inter{
+        flex-wrap: wrap;
+    }
+
+    .inter__col1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inter__col2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inter__title1{
+        display: block;
+    }
+    .inter__title2{
+        display: none;
+    }
+
+
+    /*---------------DESCRIPTION---------------*/
     .detail__descripcol {
         padding: 40px;
         padding-top: 0px;

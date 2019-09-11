@@ -1,3 +1,13 @@
+var navbtn = document.querySelector('.mainheader__btn');
+var mainnav = document.querySelector('.mainheader__nav');
+
+function handleClick0(){
+    mainnav.classList.toggle('mainheader__nav--active');
+}
+ 
+navbtn.addEventListener('click', handleClick0);
+
+
 var buttons = document.querySelectorAll('.manybtn__img');
 //var imgButton = document.querySelector('img');
 
