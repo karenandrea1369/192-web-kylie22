@@ -1,0 +1,148 @@
+[
+{
+"name":"YOU'RE SO MONEY BABY | PRESSED POWDER PALETTE",
+"popularity":5,
+"price":48000,
+"description":"The Kylie Cosmetics  limited edition You're So Money Birthday Collection palette is your secret weapon to create the perfect Kylie look. Each palette comes with 9 metallics and 7 matte pressed powder pigments that can be used together to recreate Kylie’s favorite birthday looks or customize your own."
+}
+{
+"name":"FACE PRIMER | BIRTHDAY 2019",
+"popularity":5,
+"price":28000,
+"description":"NEW lightweight hydrating primer, refreshes skin and creates a smooth canvas for makeup application. Instantly brightens and evens out the skin and can be worn alone or with the Kylie Skin Face Moisturizer for added hydration. Increases wear of foundation and it is suitable for all skin types."
+}
+{
+"name":"FACE SPRAY | SETTING SPRAY",
+"popularity":4,
+"price":24000,
+"description":"The Kylie Cosmetics face spray is a weightless setting spray that is formulated to lock in makeup all day and night."
+}
+{
+"name":"BIRTHDAY LOOSE ILLUMINATING POWDER",
+"popularity":4,
+"price":26000,
+"description":"NEW Radiant version of our best-selling Setting Powders. It is a weightless, ultra-fine powder that blends seamlessly into skin without looking cakey or adding texture. Micro shimmers add a subtle radiance and luminosity for a healthy, luminous finish."
+}
+{
+"name":"22 CARATS | JELLY KYLIGHTER",
+"popularity":5,
+"price":22000,
+"description":"High-shine Jelly Kylighter is a water-based gel cream infused with Vitamin E and concentrated blend of illuminating pearls. The lightweight, refreshing formula glides onto the skin and instantly brightens with an illuminating finish."
+}
+{
+"name":"BIRTHDAY PRESSED BODY GLOW",
+"popularity":4,
+"price":28000,
+"description":"NEW Ultra-creamy, pressed powder formula blends seamlessly and melts into skin for an all over, radiant glow. Multi-dimensional pearls add shine and provide a warm, luminous sheen."
+}
+{
+"name":"ULTIMATE GLOW BIRTHDAY BUNDLE",
+"popularity":5,
+"price":112000,
+"description":"1 x Birthday Pressed Body Glow
+1 x Face Primer
+1 x Family is Gold Jelly Kylighter
+1 x Money Ain't Everything Shimmer Glaze
+1 x Birthday Loose Illuminating Powder"
+}
+{
+"name":"MAMA BOSS | MATTE LIPSTICK",
+"popularity":3,
+"price":17000,
+"description":"The Kylie Cosmetics Matte Lipstick is a smooth and creamy formula that provides full coverage for an ultra-pigmented lip. The hydrating matte lipstick glides onto the lips for a comfortable matte finish. Wear alone or pair with your favorite gloss for a high shine finish."
+}
+{
+"name":"MONEY ROLL MATTE LIPSTICK BUNDLE",
+"popularity":4,
+"price":45000,
+"description":"Hustle Honey is a mid-tone pink
+Money Mindset is a pale peachy pink
+Mama Boss is a vibrant hot pink"
+}
+{
+"name":"TRANSLUCENT | LOOSE SETTING POWDER",
+"popularity":4,
+"price":24000,
+"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish."
+}
+{
+"name":"SOFT PINK | LOOSE SETTING POWDER",
+"popularity":4,
+"price":24000,
+"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
+
+Soft Pink: brightens fair to light skin tones"
+}
+{
+"name":"YELLOW | LOOSE SETTING POWDER",
+"popularity":4,
+"price":24000,
+"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
+
+Yellow: brightens light to medium skin tones"
+}
+{
+"name":"BEIGE | LOOSE SETTING POWDER",
+"popularity":4,
+"price":24000,
+"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
+
+Beige: medium to tan skin tones"
+}
+{
+"name":"DEEP DARK | LOOSE SETTING POWDER",
+"popularity":4,
+"price":24000,
+"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
+
+Deep Dark: deep dark skin tones"
+}
+{
+"name":"ALMOND | BRONZER",
+"popularity":3,
+"price":18000,
+"description":"Almond is a warm amber.
+
+The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+}
+{
+"name":"ROSY | BLUSH",
+"popularity":3,
+"price":18000,
+"description":"Rosy is a mid-tone berry.
+
+The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+}
+{
+"name":"WE'RE GOING SHOPPING | BLUSH",
+"popularity":3,
+"price":18000,
+"description":"We're Going Shopping is a clean coral.
+
+The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+}
+{
+"name":"KITTEN BABY | BLUSH",
+"popularity":3,
+"price":18000,
+"description":"Kitten Baby is a light apricot.
+
+The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+}
+{
+"name":"TEQUILA TAN | BRONZER",
+"popularity":3,
+"price":18000,
+"description":"Tequila Tan is a warm bronze.
+
+The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+}
+{
+"name":"TANNED AND GORGEOUS | BRONZER",
+"popularity":3,
+"price":18000,
+"description":"Tanned And Gorgeous is a warm mocha.
+
+The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+}
+]
