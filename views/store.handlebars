@@ -6,15 +6,28 @@
     <button class="btn button--cta">¡La quiero!</button>
 </div>
 
-<div>
+<div class="products">
+
+    
     {{#each products}}
-    <img src="" alt="">
-    <h3>{{name}}</h3>
-    <img src="" alt="">
-    <p>{{description}}</p>
-    <button>Agregar al carrito</button>
+        <div class="generalproduct">
+            {{!-- <img src="" alt=""> --}}
+           <a href="/producto/{{name}}">
+               <div class="divimage"></div>
+           </a>
+           <a href="/producto/{{name}}">
+               <h3 class="tx20">{{name}}</h3>
+           </a>
+            {{!-- <img src="" alt=""> --}}
+            <div class="stars"></div>
+            <p class="tx20">{{price}}</p>
+            <button class="btn addtocart" data-name="{{this._id}}">Agregar al carrito</button>
+        </div>
     {{/each}}
+    
+
 </div>
+
 
 
 <script src="/scripts/store.js"></script>
