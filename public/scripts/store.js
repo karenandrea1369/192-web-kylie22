@@ -1,6 +1,7 @@
 window.addEventListener('load', function(){
 
     var btn_cart = document.querySelectorAll('.addtocart');
+    var shopping_counter = document.querySelector('.shopping__counter');
 
     btn_cart.forEach(function(btn) {
 
@@ -17,7 +18,7 @@ window.addEventListener('load', function(){
                 })
                 .then(function(data) {
                     console.log(data);
-                    shopping__counter.innerText = data.cartLength;
+                    shopping_counter.innerText = data.cartLength;
                 });
 
         });
