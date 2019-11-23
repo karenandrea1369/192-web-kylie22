@@ -35,32 +35,33 @@ function createRoutes (app, db) {
         const products = db.collection('products');
         const cart = db.collection("cart");
         console.log('Alguien entró al carrito');
-
+        
         //buscamos los id de los productos que agregué al carro
         cart.find({})
         //transformamos el cursor en un arreglo
-            .toArray((err,result)=>{
-                //aseguramos de que no hay error
-                assert.equal(null, err);
-
-                var idsCart = [];//un arreglo para guardar todos los ids que tengo en el carrito
-                result[0].products.forEach(id => {
-                    ids.push(new ObjectID (id));//agrego todos
-                });
+        .toArray((err,result)=>{
+            //aseguramos de que no hay error
+            assert.equal(null, err);
+            
+            var idsCart = [];//un arreglo para guardar todos los ids que tengo en el carrito
+            result[0].products.forEach(id => {
+                idsCart.push(new ObjectID (id));//agrego todos los id al nuevo arreglo
             });
-
-        //buscamos todos los productos
-        products.find({})
+            console.log(idsCart);
+        
+            
+            //buscamos todos los productos
+            products.find({ _id: {$in: idsCart}})
             //transformamos el cursor a un arreglo
-            .toArray((err, result) => {
+            .toArray((err, resultProducts) => {
                 //aseguramos de que no hay error
                 assert.equal(null, err);
-
                 var context = {
-                    products: result
+                    products: resultProducts,
                 };
-                response.render('store',context);
+                response.render('cart',context);
             });
+        });
     });
 
     /*
@@ -80,9 +81,7 @@ function createRoutes (app, db) {
             result[0].products.forEach(id => {
                 ids.push(new ObjectID (id));
             });
-            
-            
-            
+             
             products.find({ _id: {$in: ids}})
             //transformamos el cursor a una arreglo
             .toArray((err, resultProducts) => {
@@ -143,9 +142,9 @@ function createRoutes (app, db) {
             arrayCart.products.push(request.body.idProduct); //le agrego en texto lo que me llegó de body, le llega en texto
 
             cart.updateOne({_id: new ObjectID (arrayCart._id) }, //convierte el id qu ele llegó en texto, a un id de mongo
-            {
-                $set: {products: arrayCart.products} //lo actualiza
-            } 
+                {
+                    $set: {products: arrayCart.products} //lo actualiza
+                } 
             );
             //aseguramos de que no hay error
             assert.equal(null, err);
@@ -154,7 +153,6 @@ function createRoutes (app, db) {
                 arrayCart
             });
         });
-
     });
 
 

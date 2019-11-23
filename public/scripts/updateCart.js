@@ -1,4 +1,5 @@
 window.addEventListener('load', function(){
+    
     var shopping_counter = document.querySelector('.shopping_counter');
 
     function updateCart(){

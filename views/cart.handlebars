@@ -1,0 +1,19 @@
+<div class="products">
+
+    {{#each products}}
+        <div class="generalproduct">
+            {{!-- <img src="" alt=""> --}}
+            <a href="/producto/{{name}}">
+                <div class="divimage"></div>
+            </a>
+            <a href="/producto/{{name}}">
+                <h3 class="tx20">{{name}}</h3>
+            </a>
+            {{!-- <img src="" alt=""> --}}
+            <div class="stars"></div>
+            <p class="tx20">{{price}}</p>
+        </div>
+    {{/each}}
+
+</div>
+

@@ -2,147 +2,141 @@
 {
 "name":"YOU'RE SO MONEY BABY | PRESSED POWDER PALETTE",
 "popularity":5,
+"stars":"5.jpg",
 "price":48000,
-"description":"The Kylie Cosmetics  limited edition You're So Money Birthday Collection palette is your secret weapon to create the perfect Kylie look. Each palette comes with 9 metallics and 7 matte pressed powder pigments that can be used together to recreate Kylie’s favorite birthday looks or customize your own."
+"description":"La paleta de la colección de cumpleaños You're So Money de la edición limitada de Kylie Cosmetics es tu arma secreta para crear el look perfecto de Kylie. Cada paleta viene con 9 metálicos y 7 pigmentos en polvo mate prensado que se pueden usar juntos para recrear los looks de cumpleaños favoritos de Kylie o personalizar los suyos."
 }
 {
 "name":"FACE PRIMER | BIRTHDAY 2019",
 "popularity":5,
+"stars":"5.jpg",
 "price":28000,
-"description":"NEW lightweight hydrating primer, refreshes skin and creates a smooth canvas for makeup application. Instantly brightens and evens out the skin and can be worn alone or with the Kylie Skin Face Moisturizer for added hydration. Increases wear of foundation and it is suitable for all skin types."
+"description":"NUEVA imprimación hidratante ligera, refresca la piel y crea un lienzo suave para la aplicación de maquillaje. Al instante ilumina y alisa la piel y se puede usar solo o con el humectante facial Kylie Skin para una mayor hidratación. Aumenta el desgaste de la base y es adecuado para todo tipo de pieles."
 }
 {
 "name":"FACE SPRAY | SETTING SPRAY",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"The Kylie Cosmetics face spray is a weightless setting spray that is formulated to lock in makeup all day and night."
+"description":"El spray facial Kylie Cosmetics es un spray de ajuste sin peso que está formulado para fijar el maquillaje todo el día y la noche."
 }
 {
 "name":"BIRTHDAY LOOSE ILLUMINATING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":26000,
-"description":"NEW Radiant version of our best-selling Setting Powders. It is a weightless, ultra-fine powder that blends seamlessly into skin without looking cakey or adding texture. Micro shimmers add a subtle radiance and luminosity for a healthy, luminous finish."
+"description":"NUEVA versión radiante de nuestros polvos de ajuste más vendidos. Es un polvo ultrafino y liviano que se mezcla perfectamente en la piel sin mirar ni agregar textura. Los micro shimmers agregan un sutil resplandor y luminosidad para un acabado saludable y luminoso."
 }
 {
 "name":"22 CARATS | JELLY KYLIGHTER",
 "popularity":5,
+"stars":"5.jpg",
 "price":22000,
-"description":"High-shine Jelly Kylighter is a water-based gel cream infused with Vitamin E and concentrated blend of illuminating pearls. The lightweight, refreshing formula glides onto the skin and instantly brightens with an illuminating finish."
+"description":"High-shine Jelly Kylighter es una crema de gel a base de agua con vitamina E y una mezcla concentrada de perlas iluminantes. La fórmula ligera y refrescante se desliza sobre la piel y se ilumina instantáneamente con un acabado iluminador."
 }
 {
 "name":"BIRTHDAY PRESSED BODY GLOW",
 "popularity":4,
+"stars":"4.jpg",
 "price":28000,
-"description":"NEW Ultra-creamy, pressed powder formula blends seamlessly and melts into skin for an all over, radiant glow. Multi-dimensional pearls add shine and provide a warm, luminous sheen."
+"description":"NUEVA fórmula de polvo prensado ultra cremoso que se combina a la perfección y se funde con la piel para obtener un brillo radiante. Las perlas multidimensionales añaden brillo y proporcionan un brillo cálido y luminoso."
 }
 {
 "name":"ULTIMATE GLOW BIRTHDAY BUNDLE",
 "popularity":5,
+"stars":"5.jpg",
 "price":112000,
-"description":"1 x Birthday Pressed Body Glow
-1 x Face Primer
-1 x Family is Gold Jelly Kylighter
-1 x Money Ain't Everything Shimmer Glaze
-1 x Birthday Loose Illuminating Powder"
+"description":"1 x Birthday Pressed Body Glow \n 1 x Face Primer \n 1 x Family is Gold Jelly Kylighter \n 1 x Money Ain't Everything Shimmer Glaze \n 1 x Birthday Loose Illuminating Powder"
 }
 {
 "name":"MAMA BOSS | MATTE LIPSTICK",
 "popularity":3,
+"stars":"3.jpg",
 "price":17000,
-"description":"The Kylie Cosmetics Matte Lipstick is a smooth and creamy formula that provides full coverage for an ultra-pigmented lip. The hydrating matte lipstick glides onto the lips for a comfortable matte finish. Wear alone or pair with your favorite gloss for a high shine finish."
+"description":"El Kylie Cosmetics Matte Lipstick es una fórmula suave y cremosa que brinda una cobertura total para un labio ultra pigmentado. El lápiz labial mate hidratante se desliza sobre los labios para un acabado mate cómodo. Úselo solo o combínelo con su brillo favorito para obtener un acabado de alto brillo."
 }
 {
 "name":"MONEY ROLL MATTE LIPSTICK BUNDLE",
 "popularity":4,
+"stars":"4.jpg",
 "price":45000,
-"description":"Hustle Honey is a mid-tone pink
-Money Mindset is a pale peachy pink
-Mama Boss is a vibrant hot pink"
+"description":"Hustle Honey es un tono medio rosado \n Money Mindset es un rosa melocotón pálido \n Mama Boss es una rosa vibrante"
 }
 {
 "name":"TRANSLUCENT | LOOSE SETTING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish."
+"description":"Todo el polvo suelto que sin esfuerzo establece tu maquillaje, equilibra los aceites y proporciona un acabado natural similar a la piel."
 }
 {
 "name":"SOFT PINK | LOOSE SETTING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
-
-Soft Pink: brightens fair to light skin tones"
+"description":"Todo el polvo suelto que sin esfuerzo establece tu maquillaje, equilibra los aceites y proporciona un acabado natural similar a la piel. \n Soft Pink: ilumina los tonos de piel claros"
 }
 {
 "name":"YELLOW | LOOSE SETTING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
-
-Yellow: brightens light to medium skin tones"
+"description":"Todo el polvo suelto que sin esfuerzo establece tu maquillaje, equilibra los aceites y proporciona un acabado natural similar a la piel. \n Yellow: ilumina los tonos de piel claros a medios"
 }
 {
 "name":"BEIGE | LOOSE SETTING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
-
-Beige: medium to tan skin tones"
+"description":"Todo el polvo suelto que sin esfuerzo establece tu maquillaje, equilibra los aceites y proporciona un acabado natural similar a la piel. \n Beige: tonos de piel medios a bronceados"
 }
 {
 "name":"DEEP DARK | LOOSE SETTING POWDER",
 "popularity":4,
+"stars":"4.jpg",
 "price":24000,
-"description":"All over loose powder that effortlessly sets your makeup, balances oils and provides a natural, skin-like finish.
-
-Deep Dark: deep dark skin tones"
+"description":"Todo el polvo suelto que sin esfuerzo establece tu maquillaje, equilibra los aceites y proporciona un acabado natural similar a la piel. \n Deep Dark: tonos de piel oscuros y profundos"
 }
 {
 "name":"ALMOND | BRONZER",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"Almond is a warm amber.
-
-The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+"description":"El bronceador en polvo mate es un bronceador suave y mezclable que se puede usar para crear el brillo sutil perfecto. \n Almond es un ámbar cálido."
 }
 {
 "name":"ROSY | BLUSH",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"Rosy is a mid-tone berry.
-
-The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+"description":"El single Kylie Cosmetics Blush es tu arma secreta para crear el rubor perfecto de Kylie. Cada Blush single viene con 1 rubor en polvo mate prensado que puede usarse para recrear los looks favoritos de Kylie o personalizar el tuyo. \n Rosy es una baya de tono medio."
 }
 {
 "name":"WE'RE GOING SHOPPING | BLUSH",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"We're Going Shopping is a clean coral.
-
-The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+"description":"El single Kylie Cosmetics Blush es tu arma secreta para crear el rubor perfecto de Kylie. Cada Blush single viene con 1 rubor en polvo mate prensado que puede usarse para recrear los looks favoritos de Kylie o personalizar el tuyo. \n We're Going Shopping es un coral claro."
 }
 {
 "name":"KITTEN BABY | BLUSH",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"Kitten Baby is a light apricot.
-
-The Kylie Cosmetics Blush single is your secret weapon to create the perfect Kylie flush. Each Blush single comes with 1 matte pressed powder blush that can be used to recreate Kylie’s favorite looks or customize your own."
+"description":"El single Kylie Cosmetics Blush es tu arma secreta para crear el rubor perfecto de Kylie. Cada Blush single viene con 1 rubor en polvo mate prensado que puede usarse para recrear los looks favoritos de Kylie o personalizar el tuyo. \n Kitten Baby es un albaricoque ligero."
 }
 {
 "name":"TEQUILA TAN | BRONZER",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"Tequila Tan is a warm bronze.
-
-The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+"description":"El bronceador en polvo mate es un bronceador suave y mezclable que se puede usar para crear el brillo sutil perfecto. \n Tequila Tan es un bronce cálido."
 }
 {
 "name":"TANNED AND GORGEOUS | BRONZER",
 "popularity":3,
+"stars":"3.jpg",
 "price":18000,
-"description":"Tanned And Gorgeous is a warm mocha.
-
-The matte pressed powder bronzer is a soft, blend-able bronzer that can be used to create the perfect subtle glow."
+"description":"El bronceador en polvo mate es un bronceador suave y mezclable que se puede usar para crear el brillo sutil perfecto. \n Tanned And Gorgeous es una moca cálida."
 }
 ]
