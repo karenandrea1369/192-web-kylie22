@@ -167,8 +167,13 @@ body{
 
 .divimage{
     width: 150px;
-    height: 150px;
+    /* height: 150px; */
     background-color: aquamarine;
+}
+
+.imgproduct{
+    width: 150px;
+    /* height: 150px; */
 }
 
 .stars{

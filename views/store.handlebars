@@ -13,13 +13,15 @@
         <div class="generalproduct">
             {{!-- <img src="" alt=""> --}}
            <a href="/producto/{{name}}">
-               <div class="divimage"></div>
+               <div class="divimage">
+                   <img class="imgproduct" src="./data2/{{img1}}" alt="">
+               </div>
            </a>
            <a href="/producto/{{name}}">
                <h3 class="tx20">{{name}}</h3>
            </a>
             {{!-- <img src="" alt=""> --}}
-            <div class="stars"></div>
+            <div class="stars"><img src="./data2/{{stars}}" alt=""></div>
             <p class="tx20">{{price}}</p>
             <button class="btn addtocart" data-name="{{this._id}}">Agregar al carrito</button>
         </div>

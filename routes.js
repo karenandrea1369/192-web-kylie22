@@ -48,8 +48,7 @@ function createRoutes (app, db) {
                 idsCart.push(new ObjectID (id));//agrego todos los id al nuevo arreglo
             });
             console.log(idsCart);
-        
-            
+
             //buscamos todos los productos
             products.find({ _id: {$in: idsCart}})
             //transformamos el cursor a un arreglo
