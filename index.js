@@ -25,13 +25,13 @@ const assert = require('assert');
 const createRoutes = require('./routes.js');
 
 //Connection URL
-const url = 'mongodb+srv://karen1369:<7909753002077>@cluster0-sxglq.mongodb.net/test?retryWrites=true&w=majority';
+const url = 'mongodb+srv://karen1369:7909753002077@cluster0-sxglq.mongodb.net/test?retryWrites=true&w=majority';
 
 // Database Name
 const dbName = 'store';
 
 // Create a new MongoClient
-const client = new MongoClient(url,);
+const client = new MongoClient(url);
 
 //conectarse al cliente
 client.connect(function(err) {
@@ -53,6 +53,6 @@ client.connect(function(err) {
 app.use(express.static('public'));
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`Servidor iniciado en el puerto ${port}`);
 });
