@@ -19,7 +19,8 @@
   "homepage": "https://github.com/karenandrea1369/192-web-kylie22#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0"
+    "express-handlebars": "^3.1.0",
+    "mongodb": "^3.3.5"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
