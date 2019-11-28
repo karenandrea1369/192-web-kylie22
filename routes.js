@@ -43,13 +43,13 @@ function createRoutes (app, db) {
             //aseguramos de que no hay error
             assert.equal(null, err);
 
-            console.log(result);
+            //console.log(result);
             
             var idsCart = [];//un arreglo para guardar todos los ids que tengo en el carrito
             result[0].products.forEach(id => {
-                idsCart.push(new ObjectID (id));//agrego todos los id al nuevo arreglo
+            idsCart.push(new ObjectID (id));//agrego todos los id al nuevo arreglo
             });
-            console.log(idsCart);
+           // console.log(idsCart);
 
             //buscamos todos los productos
             products.find({ _id: {$in: idsCart}})
