@@ -298,9 +298,31 @@ body{
 
 .ep{
     display: flex;
+    flex-direction: row;
 }
 
-.ep__colum{
+.ep__img{
+    display: flex;
+    background-color: red;
+    width: 50%;
+}
+
+.ep__imggalery{
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.ep__imggalery img{
+    width: 100%;
+}
+
+.ep__imgphoto{
+    width: 70%;
+}
+
+.ep__descrip{
+    background-color: royalblue;
     width: 50%;
 }
 
