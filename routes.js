@@ -42,6 +42,8 @@ function createRoutes (app, db) {
         .toArray((err,result)=>{
             //aseguramos de que no hay error
             assert.equal(null, err);
+
+            console.log(result);
             
             var idsCart = [];//un arreglo para guardar todos los ids que tengo en el carrito
             result[0].products.forEach(id => {
