@@ -107,11 +107,28 @@ body{
     height: 40px;
 }
 
+.mainheader__cartitem{
+    display: flex;
+    flex-direction: row;
+}
+
 .mainheader__item{
-    text-decoration: none;
-    margin: 40px 90px 40px 0px;
-    color: #CF0A6F;
-    font-size: 20px;
+    margin: 40px 0px 40px 0px;
+}
+
+.mainheader__cartitemnum{
+    background-color: #CF0A6F;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.shopping_counter{
+    color: white;
+    font-size: 18px;
+    margin: 0px 0px;
 }
 
 .navigation__item--active{
@@ -148,8 +165,16 @@ body{
 }
 
 /*---------------STORE---------------*/
+.store{
+    display: flex;
+}
+.filorg{
+    width: 20%;
+}
+
 .products{
-    background-color: rgb(184, 152, 172);
+    width: 80%;
+    /*background-color: rgb(184, 152, 172);*/
     margin: 0px;
     padding: 0px 90px;
     display: flex;
