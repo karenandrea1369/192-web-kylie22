@@ -31,6 +31,38 @@ function createRoutes (app, db) {
         });
     });
 
+    app.get('/api/filters', (request, response) =>{
+        const products = db.collection('products');
+
+        if(request.query.selectValue == "cheap"){
+            products.find().sort({price: 1}) //1 es ascendente
+            .toArray((err,result) => {
+                assert.equal(null,err);
+            });
+        }
+
+        if(request.query.selectValue == "expensive"){
+            products.find().sort({price: -1}) //1 es ascendente
+            .toArray((err,result) => {
+                assert.equal(null,err);
+            });
+        }
+
+        if(request.query.selectValue == "az"){
+            products.find().sort({name: 1}) //1 es ascendente
+            .toArray((err,result) => {
+                assert.equal(null,err);
+            });
+        }
+
+        if(request.query.selectValue == "za"){
+            products.find().sort({name: -1}) //1 es ascendente
+            .toArray((err,result) => {
+                assert.equal(null,err);
+            });
+        }
+    });
+
     app.get('/carrito', (request, response) => {
         const products = db.collection('products');
         const cart = db.collection("cart");

@@ -3,7 +3,25 @@ window.addEventListener('load', function(){
     var filterbtn = document.querySelector('.filorg__btn');
     var filorg = document.querySelector('.filorg--container');
     var btn_cart = document.querySelectorAll('.addtocart');
-    //var shopping_counter = document.querySelector('.shopping_counter');
+    var select = document.querySelector('.order');
+    
+
+    function filters(order){
+        fetch('/api/filters'+order)
+        .then(function(response) {
+            console.log(response);
+            return response.json();
+        })
+        .then(function(data) {//data es lo que le mando
+            console.log(data);
+        });
+    }
+
+    select.addEventListener('change',function(){
+        filters("?selectValue="+select.value);
+    });
+
+    filters("");
 
     function handleClick0(){
         filorg.classList.toggle('filorg--active');

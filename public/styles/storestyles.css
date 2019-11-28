@@ -299,31 +299,40 @@ body{
 .ep{
     display: flex;
     flex-direction: row;
+    padding: 20px 10px;
 }
 
 .ep__img{
     display: flex;
-    background-color: red;
     width: 50%;
 }
 
 .ep__imggalery{
     display: flex;
+    justify-content: center;
     width: 30%;
     flex-wrap: wrap;
+
 }
 
 .ep__imggalery img{
-    width: 100%;
+    width: 50%;
+    margin: 10px;
 }
 
 .ep__imgphoto{
+    display: flex;
     width: 70%;
+    align-items: center;    
+}
+
+.ep__imgphoto img{
+    width:100%;
 }
 
 .ep__descrip{
-    background-color: royalblue;
-    width: 50%;
+    height: 50%;
+    padding: 0px 30px;
 }
 
 /*---------------SUSCRIBE---------------*/
