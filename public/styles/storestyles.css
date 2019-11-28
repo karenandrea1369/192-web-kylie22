@@ -180,7 +180,7 @@ body{
 /*---------------FILTERS AND ORGANIZE----------------*/
 
 .order{
-    background-image: url("../data2/select-background.png");
+    /*background-image: url("../data2/select-background.png");*/
     box-sizing: border-box;
     border: none;
 }
@@ -217,6 +217,10 @@ body{
 	background-size: cover;
 }
 
+.filorg__btn{
+    display: none;
+}
+
 /*---------------STORE---------------*/
 .store{
     display: flex;
@@ -227,6 +231,7 @@ body{
     padding: 20px 20px 20px 40px;
     width: 25%;
     height: fit-content;
+    transition: all .4s ease;
     /*box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
@@ -245,15 +250,17 @@ body{
     width: 25%;
     height: 400px;
     padding: 10px;
-    margin: 0px 20px;
+    margin: 20px 20px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
 
+.generalproduct a{
+    text-decoration: none;
 }
 
 .divimage{
-    width: 150px;
-    /* height: 150px; */
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
 }
 
 .imgproduct{
@@ -264,7 +271,27 @@ body{
 .stars{
     width: 70px;
     height: 20px;
-    background-color: blueviolet;
+}
+
+.infobuy{
+    display: flex;
+}
+
+.infobuy__info{
+    width: 60%;
+    height: 70px;
+}
+
+.infobuy__buy{
+    width: 40%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.infobuy__buybutton{
+    background: none;
 }
 
 /*---------------EACH PRODUCT---------------*/
@@ -319,4 +346,90 @@ body{
 .net__img{
     height: 22px;
     margin: 0px 10px;
+}
+
+
+@media (max-width: 600px){
+
+    /* -----------------STORE---------------------*/
+
+    .store{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .products {
+        width: 100%;
+        /* background-color: rgb(184, 152, 172); */
+        margin: 0px;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .generalproduct {
+        width: 40%;
+        height: 320px;
+        padding: 10px;
+        margin: 20px 20px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .imgproduct{
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .infobuy__info {
+        width: 70%;
+        height: 70px;
+    }
+
+    .infobuy__buy {
+        width: 30%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .infobuy__buy img{
+        width: 35px;
+    }
+
+    /* -----------------FILTER AND ORGANIZE---------------------*/
+    .filorg {
+        width: 50%;
+        padding: 20px 0px;
+        
+    }
+    
+    .filorg--container {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+        border-radius: 3px;
+        padding: 20px 20px 20px 40px;
+        background-color: #ffffff;  
+        width: 50%;
+        height: fit-content;
+        transition: all .4s ease;
+        transform: translate(-100%, 0%);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .filorg--active{
+        opacity: 1;
+        pointer-events: all;
+        transform: translate(0%, 0%);
+    }
+
+    .filorg__btn{
+        display: block;
+        /*margin: 20px;*/
+    }
+
 }

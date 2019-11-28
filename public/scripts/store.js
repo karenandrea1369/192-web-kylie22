@@ -1,7 +1,17 @@
 window.addEventListener('load', function(){
 
+    var filterbtn = document.querySelector('.filorg__btn');
+    var filorg = document.querySelector('.filorg--container');
     var btn_cart = document.querySelectorAll('.addtocart');
     //var shopping_counter = document.querySelector('.shopping_counter');
+
+    function handleClick0(){
+        filorg.classList.toggle('filorg--active');
+    }
+
+    filterbtn.addEventListener('click',handleClick0);
+    
+    navbtn.addEventListener('click', handleClick0);
 
     btn_cart.forEach(function(btn) {
 

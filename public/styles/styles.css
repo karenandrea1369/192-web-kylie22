@@ -345,7 +345,7 @@ body{
     .mainheader__nav{
         position: absolute;
         width: 100%;
-        height: 180px;
+        height: 220px;
         top: 84px;
         padding: 20px;
         background-color: #ffffff;
@@ -361,6 +361,7 @@ body{
         opacity: 1;
         pointer-events: all;
         transform: translate(75%, 0%);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     }
 
     .mainheader__item{
