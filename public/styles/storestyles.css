@@ -43,6 +43,12 @@ body{
     color: #461B37;
 }
 
+.tx18{
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+    color: #461B37;
+}
+
 .tx20{
     font-family:  'Roboto', sans-serif;
     font-size: 20px;
@@ -53,6 +59,13 @@ body{
     font-family:  'Roboto', sans-serif;
     font-size: 30px;
     color: #461B37;
+}
+
+.tx20--important{
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #CF0A6F;
 }
 
 .tx24--important{
@@ -164,19 +177,64 @@ body{
     width: 35%;
 }
 
+/*---------------FILTERS AND ORGANIZE----------------*/
+
+.order{
+    background-image: url("../data2/select-background.png");
+    box-sizing: border-box;
+    border: none;
+}
+
+.order option{
+    padding: 0px 20px;
+}
+
+.filorg__fil label{
+    margin: 10px 0px;
+}
+
+.filorg__fil input{
+    margin: 10px 0px;
+}
+
+.filorg__fil input[type="checkbox"]{
+    display: none;
+}
+
+.filorg__fil input[type="checkbox"] + label span{
+    display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: -5px 4px 0 0;
+	vertical-align: middle;
+	background-image: url("../data2/checkbox-unchecked.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.filorg__fil input[type="checkbox"]:checked + label span{
+    background-image: url("../data2/checkbox-checked.png");
+	background-size: cover;
+}
+
 /*---------------STORE---------------*/
 .store{
     display: flex;
+    padding: 20px 20px;
 }
 .filorg{
-    width: 20%;
+    border-radius: 3px;
+    padding: 20px 20px 20px 40px;
+    width: 25%;
+    height: fit-content;
+    /*box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .products{
-    width: 80%;
+    width: 75%;
     /*background-color: rgb(184, 152, 172);*/
     margin: 0px;
-    padding: 0px 90px;
+    padding: 0px 40px;
     display: flex;
     flex-direction: row;
     height: fit-content;
@@ -184,10 +242,12 @@ body{
 }
 
 .generalproduct{
-    width: 300px;
+    width: 25%;
     height: 400px;
-    padding: 40px;
-    margin: 0px;
+    padding: 10px;
+    margin: 0px 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .divimage{
