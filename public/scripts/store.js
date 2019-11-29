@@ -7,7 +7,7 @@ window.addEventListener('load', function(){
     
 
     function filters(order){
-        fetch('/api/filters'+order)
+        fetch('/tienda'+order)
         .then(function(response) {
             console.log(response);
             return response.json();
@@ -29,8 +29,6 @@ window.addEventListener('load', function(){
 
     filterbtn.addEventListener('click',handleClick0);
     
-    navbtn.addEventListener('click', handleClick0);
-
     btn_cart.forEach(function(btn) {
 
         btn.addEventListener('click', function(event){

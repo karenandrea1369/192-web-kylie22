@@ -31,36 +31,78 @@ function createRoutes (app, db) {
         });
     });
 
-    app.get('/api/filters', (request, response) =>{
+    /*app.get('/tienda', (request, response) =>{
         const products = db.collection('products');
+        
+        console.log("esto es la wea:"+request.query.selectValue);
+                //console.log(copyProducts);
 
-        if(request.query.selectValue == "cheap"){
-            products.find().sort({price: 1}) //1 es ascendente
-            .toArray((err,result) => {
-                assert.equal(null,err);
-            });
-        }
+                var context = {};
 
-        if(request.query.selectValue == "expensive"){
-            products.find().sort({price: -1}) //1 es ascendente
-            .toArray((err,result) => {
-                assert.equal(null,err);
-            });
-        }
+                if(request.query.selectValue == 'cheap'){
+                    //console.log("funciona");
+                    products.find().sort(function(a,b){
+                        return a.price - b.price,
+                        console.log("funciona x2"),
+                        console.log(copyProducts);
+                    }) //1 es ascendente
+                    return;
+                }else if(request.query.selectValue == 'expensive'){
+                    console.log("funciona");
+                    products.find().sort({ price: -1}) //1 es ascendente
+                    .toArray((err,result) => {
+                        assert.equal(null,err);
 
-        if(request.query.selectValue == "az"){
-            products.find().sort({name: 1}) //1 es ascendente
-            .toArray((err,result) => {
-                assert.equal(null,err);
-            });
-        }
+                        console.log(result);
 
-        if(request.query.selectValue == "za"){
-            products.find().sort({name: -1}) //1 es ascendente
-            .toArray((err,result) => {
-                assert.equal(null,err);
-            });
-        }
+                        copyProducts = result;
+
+                    });
+                    return;
+                }else if(request.query.selectValue == 'az'){
+                    products.find().sort({name: 1}) //1 es ascendente
+                    .toArray((err,result) => {
+                        assert.equal(null,err);
+
+                        context = {
+                            products: result,
+                            message: 'ok'
+                        };
+
+                        response.render('store',context);
+                    });
+                    return;
+                }else if(request.query.selectValue == 'za'){
+                    products.find().sort({name: -1}) //1 es ascendente
+                    .toArray((err,result) => {
+                        assert.equal(null,err);
+
+                        context = {
+                            products: result,
+                            message: 'ok'
+                        };
+
+                        response.render('store',context);
+                    });
+                    return;
+                }else{
+                    products.find().toArray((err,result) => {
+                        assert.equal(null,err);
+
+                        context = {
+                            products: result,
+                            message: 'ok'
+                        };
+                    });
+                }
+                response.render('store',context);
+        });
+        */
+
+
+    app.get('/crea', (request, response) => {
+        console.log('Alguien entró crear');
+        response.render('create');
     });
 
     app.get('/carrito', (request, response) => {

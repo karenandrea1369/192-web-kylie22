@@ -335,6 +335,80 @@ body{
     padding: 0px 30px;
 }
 
+/*---------------INTERACTION---------------*/
+.intercontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 80px;
+}
+
+.intercontainer__kit{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.intercontainer__kitleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: sandybrown;
+}
+
+.intercontainer__sombra{
+    height: 50%;
+    background-color: royalblue;
+}
+.intercontainer__sombraimg{
+    width: 100%;
+    background-color: royalblue;
+}
+
+.intercontainer__rubor{
+    height: 50%;
+    background-color: salmon;
+}
+.intercontainer__ruborimg{
+    width: 100%;
+    background-color: royalblue;
+}
+.intercontainer__kitright{
+    width: 50%;
+    display: flex;
+    background-color: seagreen;
+}
+.intercontainer__labialimg{
+    width: 100%;
+    background-color: royalblue;
+}
+.intercontainer__options{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intercontainer__options h3{
+    margin: 10px 30px;
+}
+
+.intercontainer__optionsbtns{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intercontainer__btn{
+    width: 20%;
+    background-color: slateblue;
+}
+
+.intercontainer__btn img{
+    width: 100%;
+}
+
 /*---------------SUSCRIBE---------------*/
 
 .suscribe{
