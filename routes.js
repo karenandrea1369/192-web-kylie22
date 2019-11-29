@@ -101,7 +101,12 @@ function createRoutes (app, db) {
 
 
     app.get('/crea', (request, response) => {
-        console.log('Alguien entró crear');
+        console.log('Alguien entró a crear');
+        response.render('create');
+    });
+
+    app.get('/kit', (request, response) => {
+        console.log('Alguien entró al kit');
         response.render('create');
     });
 
@@ -230,9 +235,13 @@ function createRoutes (app, db) {
         });
     });
 
+    app.get('/kitdone',(request,response)=>{
+        response.render('kitdone');
+    
+        
+    });
 
-    //app.post('/producto/:name', (request, response) => {
-    //});
+
 
 
 //------------------------------------------------------
