@@ -56,6 +56,20 @@ window.addEventListener('load', function(){
 
 
     });
+
+    var imgbtns = document.querySelectorAll('.imgbtn');
+
+    function handleClick3(event){
+        var name = event.target.getAttribute('src')
+        var imagelabial = document.querySelector(".imgproductbig");
+        imagelabial.setAttribute('src', name);
+        console.log(name);
+    }
+
+    for (var i = 0; i < imgbtns.length; i++) {
+        var button = imgbtns[i];
+        button.addEventListener('click', handleClick3 );   
+    }
  
 });
         // function displayList() {

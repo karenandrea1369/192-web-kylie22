@@ -304,6 +304,7 @@ body{
 
 .ep__img{
     display: flex;
+    padding: 30px 50px;
     width: 50%;
 }
 
@@ -311,27 +312,29 @@ body{
     display: flex;
     justify-content: center;
     width: 30%;
+    height: 60%;
     flex-wrap: wrap;
-
 }
 
 .ep__imggalery img{
     width: 50%;
-    margin: 10px;
+    height: 25%;
+    margin: 10px 10px;
 }
 
 .ep__imgphoto{
     display: flex;
     width: 70%;
+    height: 80%;
     align-items: center;    
 }
 
 .ep__imgphoto img{
-    width:100%;
+    width:90%;
 }
 
 .ep__descrip{
-    height: 50%;
+    width: 50%;
     padding: 0px 30px;
 }
 
@@ -444,6 +447,27 @@ padding: 20px 60px;
     align-items: center;
     margin: 0px 0px 50px 0px;
 }
+
+/*---------------KIT DONE---------------*/
+.kitdone{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+
+.kitdone__bag{
+    width: 50%;
+    padding: 50px 50px;
+}
+
+.kitdone__bag img{
+    width: 60%;
+}
+
+.kitdone__msg{
+    width: 50%;
+}
+
 /*---------------SUSCRIBE---------------*/
 
 .suscribe{
