@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/karenandrea1369/192-web-kylie22#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^3.1.0",
     "mongodb": "^3.3.5"
   },
